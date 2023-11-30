@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "name": "test",
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "phoneNumber": "01011111111",
+      "birthDate": "19991225",
+      "gender": "on",
+      "address": "qntks",
+      "smsAgreement": "on",
+      "emailAgreement": "on",
+      "id": 1
+    },
+    {
+      "name": "황윤주",
+      "email": "duswldbswn@google.com",
+      "password": "11111111",
+      "phoneNumber": "01000000000",
+      "birthDate": "19991225",
+      "gender": "on",
+      "address": "부산",
+      "smsAgreement": "on",
+      "emailAgreement": "on",
+      "id": 2
+    },
+    {
+      "name": "황윤주",
+      "email": "duswldbswn@naver.com",
+      "password": "55555555",
+      "phoneNumber": "01011111111",
+      "birthDate": "19991225",
+      "gender": "남",
+      "address": "부산",
+      "smsAcceptance": "true",
+      "emailAcceptance": "true",
+      "id": 3
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 4
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 5
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 6
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "11111111",
+      "id": 8
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 9
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "1111",
+      "id": 10
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 11
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 12
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 13
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "123456789",
+      "id": 14
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "email": "duswldbswn@naver.com",
+      "password": "7777777",
+      "id": 16
+    },
+    {
+      "email": "duswldbswn",
+      "password": "ddd",
+      "id": 17
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 18
+    },
+    {
+      "name": "ㅁㅁ",
+      "email": "ㅁㅁ@ㅁㅁ",
+      "password": "aaaaaaa",
+      "phoneNumber": "aaa",
+      "birthDate": "aaa",
+      "gender": "남",
+      "address": "aaaa",
+      "smsAcceptance": "true",
+      "emailAcceptance": "true",
+      "id": 19
+    },
+    {
+      "email": "duswldbswn@google.com",
+      "password": "11111111",
+      "id": 20
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": "10000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": "20000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    },
+    {
+      "id": 3,
+      "title": "Product 2",
+      "price": "20000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    },
+    {
+      "id": 4,
+      "title": "Product 2",
+      "price": "20000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": "20000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    },
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": "10000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": "10000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": "20000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    },
+    {
+      "id": 3,
+      "title": "Product 2",
+      "price": "20000",
+      "image": " https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "첫 번째 공지사항",
+      "content": "첫 번째 공지사항 내용입니다.",
+      "views": 100,
+      "date": "2023-12-01"
+    },
+    {
+      "id": 2,
+      "title": "두 번째 공지사항",
+      "content": "두 번째 공지사항 내용입니다.",
+      "views": 120,
+      "date": "2023-12-02"
+    }
+  ]
+  
+}

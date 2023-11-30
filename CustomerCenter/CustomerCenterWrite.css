@@ -1,0 +1,31 @@
+#post-form {
+    width: 700px;
+    margin: 0 auto;
+  
+  
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 676px;
+    padding: 10px;
+    margin: 12px auto 0;
+  }
+  
+  textarea {
+    table-layout: fixed;
+    height: 300px;
+    white-space: pre-line;
+    word-break: break-all;
+  }
+  
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  

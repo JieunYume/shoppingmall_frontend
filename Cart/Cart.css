@@ -1,0 +1,62 @@
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+#cart-table th, #cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#cart-table th {
+    background-color: gray;
+    color: white;
+}
+
+#cart-table img {
+    width: 50px;
+    height: 50px;
+}
+
+#cart-table button {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    opacity: 0.3; 
+}
+
+#cart-table button:hover {
+    background-color: #da190b;
+    color: white;
+    opacity: 1; 
+}
+
+
+
+#order-button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#order-button:hover {
+    background-color: black;
+}
