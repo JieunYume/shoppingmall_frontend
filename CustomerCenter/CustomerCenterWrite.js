@@ -15,14 +15,11 @@ form.addEventListener("submit", function (e) {
 
   const title = document.getElementById("title").value;
   const content = document.getElementById("content").value;
-  const writeName = "사용자 이름"; // 실제 구현에서는 로그인한 사용자의 이름을 사용해야 합니다.
-  const date = new Date().toISOString();
+ 
 
   const post = {
     title,
     content,
-    writeName,
-    date,
   };
 
   const accessToken = localStorage.getItem('accessToken');  // 액세스 토큰 가져오기
