@@ -58,6 +58,7 @@ async function login(user) {
       window.location.href = '../Main/Main.html';
       createNavbar(true);
   } catch (error) {
+      alert('로그인에 실패하였습니다')
       console.error('Error:', error);
 
   }

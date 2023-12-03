@@ -6,13 +6,14 @@
 
 
 
-section {
-  min-height: 100vh;
+body > section {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
   padding: 20px;
 }
+
 
 .container {
   position: relative;
@@ -118,3 +119,4 @@ input[type="submit"] {
   outline: none;
   margin-top: 50px;
 }
+

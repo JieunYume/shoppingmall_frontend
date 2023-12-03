@@ -1,13 +1,16 @@
 import { createNavbar } from '../Component/Navbar.js';
 
-// 페이지 로드 시
+let product;  // 전역 변수로 선언
+let accessToken;  // 액세스토큰도 전역변수로 선언
+
 document.addEventListener('DOMContentLoaded', () => {
-  const accessToken = localStorage.getItem('accessToken');  // 액세스 토큰 가져오기
+  accessToken = localStorage.getItem('accessToken');  // 액세스 토큰 가져오기
   const isLoggedIn = !!accessToken;  // 액세스 토큰이 있으면 로그인 상태
   createNavbar(isLoggedIn);
 });
 
-let product;  // 전역 변수로 선언
+
+
 
 window.onload = async function() {
     const params = new URLSearchParams(window.location.search);
@@ -28,29 +31,41 @@ window.onload = async function() {
 };
 
 async function addToCart() {  
-    // 장바구니에 제품 추가
-    const response = await fetch(`http://localhost:8080/api/cart/?productId=${id}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(product)
-    });
-    if (response.ok) {
-      console.log('Added to cart');
-    }
+  // 장바구니에 제품 추가
+  const response = await fetch(`http://localhost:8080/api/cart/?productId=${product.id}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${accessToken}`  // 헤더에 토큰 추가
+    },
+    body: JSON.stringify(product)
+  });
+  if (response.ok) {
+    console.log('Added to cart');
+    alert('장바구니에 추가하였습니다')
+  }
+  else{
+    alert('error')
+  }
 };
 
 async function addToWishlist() {  
-    // 위시리스트에 제품 추가
-    const response = await fetch(`http://localhost:8080/api/wishlist/?productId=${id}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(product)
-    });
-    if (response.ok) {
-      console.log('Added to wishlist');
-    }
+  // 위시리스트에 제품 추가
+  const response = await fetch(`http://localhost:8080/api/wishlist/?productId=${product.id}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${accessToken}`  // 헤더에 토큰 추가
+    },
+    body: JSON.stringify(product)
+  });
+  if (response.ok) {
+    console.log('Added to wishlist');
+    alert('위시리스트에 추가하였습니다')
+  }
+  else{
+    alert(error)
+  }
 };
+
+window.addToWishlist = addToWishlist;

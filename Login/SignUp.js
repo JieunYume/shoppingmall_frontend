@@ -89,6 +89,7 @@ form.addEventListener('submit', function(event){
               alert('회원가입이 성공적으로 완료되었습니다!');
               window.location.href = './Login.html'; 
             } else {
+              alert('회원가입에 실패하였습니다');
               throw new Error('회원가입에 실패하였습니다.');
             }
           }))
