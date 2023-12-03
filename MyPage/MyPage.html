@@ -2,24 +2,54 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-  
-    <title>마이페이지</title>
-    <link rel="stylesheet" type="text/css" href="../Component/Navbar.css"/>
+    <title>내 정보</title>
+    <link rel="stylesheet" type="text/css" href="../Component/Navbar.css" />
     <link rel="stylesheet" href="./MyPage.css">
 </head>
 <body>
-
     <header>
-        <nav id="navbar">
-
-        </nav>
+        <nav id="navbar"></nav>
     </header>
 
-    <h1>마이페이지</h1>
-    
-
+    <div class="container">
+        <h1>내 정보</h1>
+        <table id="user-info">
+          <tr>
+            <td>이름</td>
+            <td id="name"></td>
+          </tr>
+          <tr>
+            <td>생일</td>
+            <td id="birthDate"></td>
+          </tr>
+          <tr>
+            <td>성별</td>
+            <td id="gender"></td>
+          </tr>
+          <tr>
+            <td>주소</td>
+            <td id="address"></td>
+          </tr>
+          <tr>
+            <td>이메일</td>
+            <td id="email"></td>
+          </tr>
+          <tr>
+            <td>전화번호</td>
+            <td id="phoneNumber"></td>
+          </tr>
+          <tr>
+            <td>sms수신여부</td>
+            <td id="smsAcceptance"></td>
+          </tr>
+          <tr>
+            <td>email수신여부</td>
+            <td id="emailAcceptance"></td>
+          </tr>
+          
+        </table>
+      </div>
+  
     <script src="./MyPage.js" type="module"></script>
-
-
 </body>
 </html>

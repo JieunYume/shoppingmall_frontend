@@ -103,7 +103,7 @@ async function deleteProduct(product, row, token) {
   }
 }
 async function orderProducts() {
-  window.location.href = "./OrderInfo.html";
+  alert('주문하기')
 }
 
 

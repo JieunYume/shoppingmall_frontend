@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#user-info {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;  /* 테이블의 레이아웃을 고정 */
+}
+
+#user-info td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+#user-info td:first-child {
+    background-color: #ccc;  /* 첫 번째 열을 회색으로 설정 */
+    width: 20%;  /* 첫 번째 열의 너비를 20%로 설정 */
+    
+}
+
+#user-info td:last-child {
+    background-color: #fff;  /* 두 번째 열을 흰색으로 설정 */
+    width: 80%;  /* 두 번째 열의 너비를 80%로 설정 */
+}
